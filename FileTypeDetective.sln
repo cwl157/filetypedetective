@@ -1,9 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTypeDetective", "FileTypeDetective.csproj", "{FD96C801-9362-452C-B8F7-1DE786906F41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6C9BED02-1FE7-4AD7-BD3A-29BA6DAA3582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsDotnetCore", "TestsDotnetCore\TestsDotnetCore.csproj", "{9B7C0157-C407-4B4F-BAC5-8A8F04A18F1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTypeDetectiveDotnetCore", "FileTypeDetectiveDotnetCore\FileTypeDetectiveDotnetCore.csproj", "{A3816428-697A-4853-9DAB-9A7C9B3AEE5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +25,14 @@ Global
 		{6C9BED02-1FE7-4AD7-BD3A-29BA6DAA3582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9BED02-1FE7-4AD7-BD3A-29BA6DAA3582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9BED02-1FE7-4AD7-BD3A-29BA6DAA3582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7C0157-C407-4B4F-BAC5-8A8F04A18F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7C0157-C407-4B4F-BAC5-8A8F04A18F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7C0157-C407-4B4F-BAC5-8A8F04A18F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7C0157-C407-4B4F-BAC5-8A8F04A18F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3816428-697A-4853-9DAB-9A7C9B3AEE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3816428-697A-4853-9DAB-9A7C9B3AEE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3816428-697A-4853-9DAB-9A7C9B3AEE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3816428-697A-4853-9DAB-9A7C9B3AEE5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
